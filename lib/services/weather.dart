@@ -8,7 +8,6 @@ const openMapWeatherPath = 'data/2.5/weather';
 
 class WeatherModel {
 
-
   Future<dynamic> getLocationWeather() async {
 
     var location = Location();
